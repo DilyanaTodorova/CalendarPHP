@@ -1,0 +1,123 @@
+body, html{
+	margin:0;
+	padding:0;
+	color:#662E38;
+	background: url(images/old_mathematics.png);
+	font-size: 18px;
+	line-height: 26px;
+}
+#emptyHeader{ height: 37px;}
+#wrapper{
+	width: 750px;
+	margin:0 auto;
+	background: #379FA1;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	-webkit-box-shadow: 7px -1px 9px #4C486C;
+	-moz-box-shadow:    7px -1px 9px #4C486C;
+	box-shadow:         7px -1px 9px #4C486C;
+	
+}
+input {
+	width: 150px;
+	padding: 12px 15px;
+	
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	
+	font-size: 14px;
+	color: #662E38;
+	text-shadow: 1px 1px 0 rgba(256,256,256,1.0);
+	
+	background: #fff;
+	border-bottom: 1px dashed #662E38;
+	border-top : 0;
+	border-right : 0;
+	border-left : 0;
+}
+
+input:hover {
+	background: #EFE6A8;
+	color: #414848;
+}
+
+input:focus {
+	background: #EFE6A8;
+	color: #414848;
+	
+}
+p{
+	margin: 8px;
+	text-indent: 10px;
+}
+#left{
+	width: 350px;
+	float: left;
+	background: transperant;
+	padding: 5px;
+}
+
+#right{
+	width: 350px;
+	float: right;
+	background: transperant;
+	
+}
+
+#tabbox{
+	height: 40px;
+	padding: 27px 10px 0px 0px;
+}
+
+#panel{
+	background-color:#FFF;
+	height:300px;
+	margin: 0px 10px 3px 350px;
+}
+
+.tab
+{
+background: #dedede;
+display: block;
+height: 40px;
+line-height: 40px;
+text-align: center;
+width: 100px;
+float: right;
+font-weight: bold;
+-webkit-border-top-left-radius: 4px;
+-webkit-border-top-right-radius: 4px;
+-moz-border-radius: 4px 4px 0px 0px;
+}
+a
+{
+color: #000;
+margin: 0;
+padding: 0;
+text-decoration: none;
+}
+.signup
+{
+margin-left:8px;
+}
+.select
+{
+background-color:#FFF;
+}
+#loginbox
+{
+height:300px;
+padding:10px;
+}
+#signupbox
+{
+height:300px;
+padding:10px;
+display:none;
+}
+
+#footer{
+	clear: both;
+	background: transperant;
+	text-align:center;
+}

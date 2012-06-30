@@ -1,0 +1,24 @@
+
+<div id="search">
+	<form id="search_form" action="searchEvents.php" method="POST">
+		<label for="startDate">След:</label>
+		<input type="text" id="startDate" placeholder="Начална дата" name="startDate" />
+		<label for="endDate">Преди:</label>
+		<input type="text" id="endDate" placeholder="Крайна дата" name="endDate" />
+		<label for="categories">Categories:</label>
+		<select id="categories" name="categoryId"><option value="category-0">всяка категория</option></select>
+		<label for="contactName">Първо име:</label>
+		<input type="text" id="contactName" placeholder="Иван" name="contactName" />
+		<label for="contactFamilyname">Фамилно име:</label>
+		<input type="text" id="contactFamilyname" placeholder="Иванов" name="contactFamilyname" />
+		<input type="submit" value="Търси"/>
+	</form>
+</div>
+<script>
+	
+</script>
+<div id="search_results">
+	<ul id="findedEvents">
+		
+	</ul>
+</div>
